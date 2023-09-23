@@ -1,0 +1,28 @@
+package com.angularspringbootecommerce.backend.controllers;
+
+
+import com.angularspringbootecommerce.backend.dtos.ModDto;
+import com.angularspringbootecommerce.backend.models.Mod;
+import com.angularspringbootecommerce.backend.services.ModService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.*;
+
+@RequiredArgsConstructor
+@RestController
+@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("api/v1/user")
+public class ModController {
+
+    private final ModService userService;
+
+    @GetMapping("/{userId}")
+    public Mod getUserById(@PathVariable Long userId, Authentication authentication) {
+        return userService.getUserById(userId, authentication);
+    }
+
+    @PutMapping("/update/{userId}")
+    public Mod updateUserById(@PathVariable Long userId, @RequestBody ModDto userDto, Authentication authentication) {
+        return userService.updateUserById(userId, userDto, authentication);
+    }
+}

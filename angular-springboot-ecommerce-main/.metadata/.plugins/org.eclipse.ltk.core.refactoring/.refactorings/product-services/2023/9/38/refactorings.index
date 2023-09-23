@@ -1,0 +1,31 @@
+1695311642237	Rename type 'UserDto'
+1695311676224	Rename type 'UserLoginDto'
+1695311683640	Delete element
+1695311697247	Delete element
+1695311704817	Delete element
+1695311710497	Delete element
+1695311718991	Delete element
+1695311722650	Delete element
+1695311735224	Delete element
+1695311814562	Delete element
+1695311852951	Rename type 'UserController'
+1695311876485	Rename type 'User'
+1695311894327	Rename type 'UserRole'
+1695311911265	Delete element
+1695311917841	Delete element
+1695311924270	Delete element
+1695311928749	Delete element
+1695311938690	Delete element
+1695311945436	Delete element
+1695311951118	Delete element
+1695311968289	Rename type 'UserService'
+1695311980616	Delete element
+1695311985738	Delete element
+1695311990329	Delete element
+1695312072790	Rename local variable 'user'
+1695312084649	Rename local variable 'user'
+1695312103514	Rename local variable 'userLoginDto'
+1695312701500	Delete element
+1695312706630	Delete element
+1695313674702	Rename type 'UserRepository'
+1695313694166	Rename type 'UserRoleRepository'
